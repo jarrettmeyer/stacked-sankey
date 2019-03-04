@@ -60,19 +60,6 @@ export class DataSet {
         return this.nodes.find(n => n.depth === depth && n.stackPosition === stackPosition);
     }
 
-    nodesAtDepth(depth: number): Node[] {
-        return this.nodes.filter(n => n.depth === depth)
-            .sort((a: Node, b: Node): number => {
-                if (a.stackPosition < b.stackPosition) {
-                    return -1;
-                }
-                if (a.stackPosition > b.stackPosition) {
-                    return 1;
-                }
-                return 0;
-            });
-    }
-
     setColors(colorMap: Map<string, string>): void {
         for (let i = 0; i < this.nodes.length; i++) {
             let color: string = colorMap.get(this.nodes[i].label) || "#c0c0c0";

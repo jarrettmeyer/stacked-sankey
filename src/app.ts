@@ -8,34 +8,18 @@ const NODE_WIDTH: number = 50;
 const HEIGHT: number = 500;
 const WIDTH: number = 1200;
 
-function getStatuses(rawData: RawData[]): string[] {
-    let statuses: string[] = [];
-    rawData.forEach(datum => {
-        datum.statuses.forEach(status => {
-            if (statuses.indexOf(status.status) === -1) {
-                statuses.push(status.status);
-            }
-        });
-    });
-    statuses = statuses.sort();
-    return statuses;
-}
-
-function getWeeks(rawData: RawData[]): string[] {
-    let weeks: string[] = [];
-    rawData.forEach(datum => {
-        datum.statuses.forEach(status => {
-            if (weeks.indexOf(status.week) === -1) {
-                weeks.push(status.week);
-            }
-        })
-    });
-    weeks = weeks.sort();
-    return weeks;
-}
-
 function n(value: number | undefined): number {
     return +(value || 0);
+}
+
+function sortNodes(a: SankeyNode<Node, Link>, b: SankeyNode<Node, Link>): number {
+    let statusA = statuses.indexOf(a.label);
+    let statusB = statuses.indexOf(b.label);
+    if (statusA < statusB) return -1;
+    if (statusA > statusB) return 1;
+    if (a.depth < b.depth) return -1;
+    if (a.depth > b.depth) return 1;
+    return 0;
 }
 
 function transformData(rawData: RawData[], weeks: string[], statuses: string[]): DataSet {
@@ -116,8 +100,8 @@ function updateColors(dataSet: DataSet, statuses: string[]): void {
     dataSet.setColors(colorMap);
 }
 
-let weeks = getWeeks(rawData);
-let statuses = getStatuses(rawData);
+let weeks = ["WEEK 0", "WEEK 1", "WEEK 2", "WEEK 3", "WEEK 4", "WEEK 5", "WEEK 6", "WEEK 7", "WEEK 8"];
+let statuses = ["Alpha", "Beta", "Gamma", "Delta", "Epsilon"];
 let dataSet = transformData(rawData, weeks, statuses);
 updateColors(dataSet, statuses);
 
@@ -125,12 +109,9 @@ let layout: SankeyLayout<SankeyGraph<Node, Link>, Node, Link> = sankey<Node, Lin
     .size([WIDTH, HEIGHT])
     .nodePadding(NODE_PADDING)
     .nodeWidth(NODE_WIDTH)
-    .nodeSort((a: SankeyNode<Node, Link>, b: SankeyNode<Node, Link>) => {
-        if (a.label < b.label) return -1;
-        if (a.label > b.label) return 1;
-        return 0;
-    });
+    .nodeSort(sortNodes);
 let graph: SankeyGraph<Node, Link> = layout(dataSet);
+graph.nodes.sort(sortNodes);
 console.log(graph);
 
 let svg = d3.select("body")
@@ -147,7 +128,9 @@ svg.selectAll("rect")
     .attr("height", d => n(d.y1) - n(d.y0))
     .attr("width", d => n(d.x1) - n(d.x0))
     .attr("x", d => n(d.x0) || 0)
-    .attr("y", d => n(d.y0));
+    .attr("y", d => n(d.y0))
+    .append("title")
+    .text(d => d.label);
 
 svg.selectAll("path")
     .data(graph.links)
