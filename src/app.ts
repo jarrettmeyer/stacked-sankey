@@ -3,6 +3,8 @@ import { sankey, SankeyGraph, SankeyLayout, sankeyLinkHorizontal, SankeyNode } f
 import { Node, DataSet, Link } from "./classes";
 import { rawData, RawData } from "./data";
 
+const NODE_PADDING: number = 0;
+const NODE_WIDTH: number = 50;
 const HEIGHT: number = 500;
 const WIDTH: number = 1200;
 
@@ -30,6 +32,10 @@ function getWeeks(rawData: RawData[]): string[] {
     });
     weeks = weeks.sort();
     return weeks;
+}
+
+function n(value: number | undefined): number {
+    return +(value || 0);
 }
 
 function transformData(rawData: RawData[], weeks: string[], statuses: string[]): DataSet {
@@ -117,8 +123,8 @@ updateColors(dataSet, statuses);
 
 let layout: SankeyLayout<SankeyGraph<Node, Link>, Node, Link> = sankey<Node, Link>()
     .size([WIDTH, HEIGHT])
-    .nodePadding(0)
-    .nodeWidth(40)
+    .nodePadding(NODE_PADDING)
+    .nodeWidth(NODE_WIDTH)
     .nodeSort((a: SankeyNode<Node, Link>, b: SankeyNode<Node, Link>) => {
         if (a.label < b.label) return -1;
         if (a.label > b.label) return 1;
@@ -138,10 +144,10 @@ svg.selectAll("rect")
     .enter()
     .append("rect")
     .attr("fill", d => d.fill)
-    .attr("height", d => (d.y1 || 0) - (d.y0 || 0))
-    .attr("width", d => (d.x1 || 0) - (d.x0 || 0))
-    .attr("x", d => d.x0 || 0)
-    .attr("y", d => d.y0 || 0);
+    .attr("height", d => n(d.y1) - n(d.y0))
+    .attr("width", d => n(d.x1) - n(d.x0))
+    .attr("x", d => n(d.x0) || 0)
+    .attr("y", d => n(d.y0));
 
 svg.selectAll("path")
     .data(graph.links)
@@ -151,4 +157,4 @@ svg.selectAll("path")
     .attr("fill", "none")
     .attr("stroke", "#000")
     .attr("stroke-opacity", 0.2)
-    .attr("stroke-width", d => (d.width || 0))
+    .attr("stroke-width", d => n(d.width));
