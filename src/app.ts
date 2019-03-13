@@ -51,9 +51,9 @@ interface GraphData {
 // ];
 
 const FACTORS: Factor[] = [
-    { index: 0, minValue: 1.0, maxValue: 1.9999, label: "[0.00, 0.30)", fill: color(0.75) },
+    { index: 0, minValue: 1.0, maxValue: 1.9999, label: "[0.00, 0.30)", fill: color(0.25) },
     { index: 1, minValue: 2.0, maxValue: 2.9999, label: "[0.30, 0.50)", fill: color(0.50) },
-    { index: 2, minValue: 3.0, maxValue: 3.9999, label: "[0.50, 1.00]", fill: color(0.25) },
+    { index: 2, minValue: 3.0, maxValue: 3.9999, label: "[0.50, 1.00]", fill: color(0.75) }
 ];
 
 // const CSV_FILE_NAME: string = "data/sample-data-1.csv";
@@ -79,7 +79,7 @@ const MARGIN = {
 }
 
 function color(value: number) {
-    return d3.interpolateBlues(value);
+    return d3.interpolateViridis(value);
 }
 
 function createAllNodes(headings: string[], factors: Factor[]): Node[] {
@@ -194,7 +194,6 @@ function drawSankeyGraph(graphData: GraphData, treatment?: string) {
             .text(treatment);
     }
 
-
     svg.selectAll("text.column-heading")
         .data(weeks)
         .enter()
@@ -222,19 +221,21 @@ function drawSankeyGraph(graphData: GraphData, treatment?: string) {
         .classed("view", true)
         .attr("transform", `translate(${MARGIN.left}, ${MARGIN.top})`);
 
-    view.selectAll("rect")
+    view.selectAll("rect.node")
         .data(graph.nodes)
         .enter()
         .append("rect")
+        .classed("node", true)
         .attr("fill", d => d.fill)
         .attr("height", d => d.y1 - d.y0)
         .attr("width", d => d.x1 - d.x0)
         .attr("x", d => d.x0)
         .attr("y", d => d.y0);
 
-    view.selectAll("text")
+    view.selectAll("text.node-label")
         .data(graph.nodes)
         .enter()
+        .filter(d => (d.y1 - d.y0) > 0.5 * LABEL_FONT_SIZE)
         .append("text")
         .classed("node-label", true)
         .attr("font-size", LABEL_FONT_SIZE)
@@ -245,10 +246,11 @@ function drawSankeyGraph(graphData: GraphData, treatment?: string) {
         .attr("text-anchor", "middle")
         .text(d => d.label);
 
-    view.selectAll("path")
+    view.selectAll("path.link")
         .data(graph.links)
         .enter()
         .append("path")
+        .classed("link", true)
         .attr("d", sankeyLinkHorizontal())
         .attr("fill", "none")
         .attr("stroke", d => `url(#gradient-${d.source.id}-${d.target.id})`)
