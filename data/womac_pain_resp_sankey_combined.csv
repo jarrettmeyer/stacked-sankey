@@ -1,0 +1,697 @@
+subjid,trt,Week 2,Week 4,Week 8,Week 12,Week 16
+1,Placebo,3,3,1-Placebo,2-Placebo,2-Placebo
+2,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+3,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+4,Tanezumab,2,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+5,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+6,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+7,Placebo,1,1,2-Placebo,3-Placebo,3-Placebo
+8,Placebo,1,2,2-Placebo,3-Placebo,2-Placebo
+9,Placebo,1,3,1-Placebo,3-Placebo,3-Placebo
+10,Placebo,1,2,2-Placebo,3-Placebo,2-Placebo
+11,Placebo,2,3,3-Placebo,3-Placebo,3-Placebo
+12,Placebo,3,2,3-Placebo,1-Placebo,1-Placebo
+13,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+14,Placebo,1,1,3-Placebo,3-Placebo,3-Placebo
+15,Tanezumab,2,1,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+16,Tanezumab,1,1,1-2.5/5 mg,2-2.5/5 mg,2-2.5/5 mg
+17,Tanezumab,1,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+18,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+19,Tanezumab,1,2,1-2.5 mg,1-2.5 mg,1-2.5 mg
+20,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+21,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+22,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+23,Tanezumab,1,3,2-2.5/5 mg,2-2.5/5 mg,2-2.5/5 mg
+24,Placebo,2,3,3-Placebo,3-Placebo,3-Placebo
+25,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+26,Placebo,1,2,3-Placebo,3-Placebo,3-Placebo
+27,Tanezumab,1,1,1-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+28,Placebo,2,3,3-Placebo,3-Placebo,3-Placebo
+29,Tanezumab,2,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+30,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+31,Tanezumab,1,2,3-2.5 mg,3-2.5 mg,3-2.5 mg
+32,Placebo,2,1,1-Placebo,3-Placebo,3-Placebo
+33,Tanezumab,3,2,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+34,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+35,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+36,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+37,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+38,Placebo,1,2,2-Placebo,2-Placebo,2-Placebo
+39,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+40,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+41,Tanezumab,2,1,2-2.5 mg,2-2.5 mg,2-2.5 mg
+42,Tanezumab,2,2,2-2.5 mg,2-2.5 mg,2-2.5 mg
+43,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+44,Placebo,1,3,3-Placebo,1-Placebo,3-Placebo
+45,Placebo,2,3,3-Placebo,3-Placebo,3-Placebo
+46,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+47,Tanezumab,1,3,1-2.5 mg,1-2.5 mg,1-2.5 mg
+48,Tanezumab,2,2,1-2.5 mg,1-2.5 mg,1-2.5 mg
+49,Placebo,1,3,1-Placebo,1-Placebo,1-Placebo
+50,Tanezumab,1,2,2-2.5/5 mg,2-2.5/5 mg,3-2.5/5 mg
+51,Tanezumab,2,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+52,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+53,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+54,Tanezumab,2,2,1-2.5/5 mg,2-2.5/5 mg,1-2.5/5 mg
+55,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+56,Tanezumab,1,2,1-2.5 mg,1-2.5 mg,1-2.5 mg
+57,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+58,Placebo,3,3,2-Placebo,3-Placebo,3-Placebo
+59,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+60,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,3-2.5/5 mg
+61,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+62,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+63,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+64,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+65,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+66,Tanezumab,1,1,1-2.5/5 mg,2-2.5/5 mg,1-2.5/5 mg
+67,Tanezumab,2,3,3-2.5/5 mg,3-2.5/5 mg,2-2.5/5 mg
+68,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+69,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+70,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+71,Placebo,1,1,2-Placebo,3-Placebo,3-Placebo
+72,Placebo,1,2,2-Placebo,3-Placebo,2-Placebo
+73,Placebo,2,3,2-Placebo,3-Placebo,3-Placebo
+74,Tanezumab,2,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+75,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+76,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+77,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+78,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+79,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+80,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+81,Placebo,1,2,1-Placebo,1-Placebo,1-Placebo
+82,Tanezumab,1,1,2-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+83,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+84,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+85,Placebo,3,2,1-Placebo,1-Placebo,1-Placebo
+86,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+87,Tanezumab,2,2,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+88,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+89,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+90,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+91,Tanezumab,1,1,1-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+92,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+93,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+94,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+95,Tanezumab,1,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+96,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+97,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+98,Placebo,1,1,2-Placebo,3-Placebo,1-Placebo
+99,Placebo,3,3,3-Placebo,1-Placebo,1-Placebo
+100,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+101,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,2-2.5/5 mg
+102,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+103,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+104,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+105,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+106,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+107,Tanezumab,2,2,2-2.5 mg,2-2.5 mg,2-2.5 mg
+108,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+109,Tanezumab,2,2,2-2.5 mg,2-2.5 mg,2-2.5 mg
+110,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+111,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+112,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+113,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,1-2.5/5 mg
+114,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+115,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+116,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+117,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+118,Tanezumab,3,2,1-2.5/5 mg,2-2.5/5 mg,1-2.5/5 mg
+119,Tanezumab,1,3,2-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+120,Tanezumab,3,3,2-2.5 mg,2-2.5 mg,2-2.5 mg
+121,Tanezumab,2,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+122,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+123,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+124,Placebo,1,1,2-Placebo,3-Placebo,3-Placebo
+125,Tanezumab,1,1,1-2.5/5 mg,2-2.5/5 mg,1-2.5/5 mg
+126,Tanezumab,1,3,1-2.5 mg,1-2.5 mg,1-2.5 mg
+127,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+128,Placebo,1,1,2-Placebo,1-Placebo,1-Placebo
+129,Tanezumab,3,3,3-2.5/5 mg,2-2.5/5 mg,3-2.5/5 mg
+130,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+131,Placebo,2,2,2-Placebo,3-Placebo,2-Placebo
+132,Tanezumab,3,3,2-2.5/5 mg,2-2.5/5 mg,3-2.5/5 mg
+133,Placebo,2,1,1-Placebo,1-Placebo,1-Placebo
+134,Tanezumab,1,2,3-2.5 mg,3-2.5 mg,3-2.5 mg
+135,Placebo,1,2,2-Placebo,3-Placebo,2-Placebo
+136,Placebo,1,1,1-Placebo,1-Placebo,2-Placebo
+137,Tanezumab,1,1,2-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+138,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+139,Placebo,2,3,3-Placebo,3-Placebo,3-Placebo
+140,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+141,Placebo,1,2,3-Placebo,3-Placebo,3-Placebo
+142,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+143,Tanezumab,1,1,3-2.5 mg,3-2.5 mg,3-2.5 mg
+144,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+145,Placebo,2,3,1-Placebo,3-Placebo,1-Placebo
+146,Tanezumab,2,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+147,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+148,Placebo,1,2,1-Placebo,1-Placebo,1-Placebo
+149,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+150,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+151,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+152,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+153,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+154,Tanezumab,2,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+155,Tanezumab,2,3,1-2.5 mg,1-2.5 mg,1-2.5 mg
+156,Placebo,1,2,2-Placebo,2-Placebo,2-Placebo
+157,Tanezumab,3,3,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+158,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+159,Tanezumab,3,3,1-2.5 mg,1-2.5 mg,1-2.5 mg
+160,Tanezumab,2,2,2-2.5/5 mg,3-2.5/5 mg,2-2.5/5 mg
+161,Placebo,2,3,2-Placebo,3-Placebo,3-Placebo
+162,Tanezumab,3,2,1-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+163,Placebo,1,1,1-Placebo,2-Placebo,3-Placebo
+164,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+165,Tanezumab,1,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+166,Tanezumab,2,2,3-2.5/5 mg,2-2.5/5 mg,2-2.5/5 mg
+167,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+168,Placebo,3,2,3-Placebo,3-Placebo,3-Placebo
+169,Placebo,2,3,2-Placebo,3-Placebo,3-Placebo
+170,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+171,Tanezumab,3,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+172,Tanezumab,1,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+173,Placebo,2,2,2-Placebo,2-Placebo,1-Placebo
+174,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+175,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+176,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+177,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,2-2.5/5 mg
+178,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+179,Placebo,1,1,1-Placebo,3-Placebo,3-Placebo
+180,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+181,Tanezumab,1,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+182,Placebo,2,3,3-Placebo,3-Placebo,3-Placebo
+183,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+184,Tanezumab,1,1,3-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+185,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,2-2.5/5 mg
+186,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+187,Placebo,1,2,2-Placebo,2-Placebo,3-Placebo
+188,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+189,Placebo,1,1,2-Placebo,2-Placebo,3-Placebo
+190,Tanezumab,3,2,1-2.5/5 mg,2-2.5/5 mg,2-2.5/5 mg
+191,Tanezumab,1,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+192,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+193,Tanezumab,1,1,2-2.5/5 mg,3-2.5/5 mg,1-2.5/5 mg
+194,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+195,Tanezumab,2,2,1-2.5 mg,1-2.5 mg,1-2.5 mg
+196,Tanezumab,2,3,2-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+197,Tanezumab,2,3,3-2.5/5 mg,3-2.5/5 mg,2-2.5/5 mg
+198,Placebo,1,1,1-Placebo,1-Placebo,2-Placebo
+199,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+200,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,2-2.5/5 mg
+201,Tanezumab,2,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+202,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+203,Tanezumab,3,3,2-2.5/5 mg,2-2.5/5 mg,1-2.5/5 mg
+204,Placebo,1,1,2-Placebo,3-Placebo,3-Placebo
+205,Tanezumab,2,2,1-2.5 mg,1-2.5 mg,1-2.5 mg
+206,Tanezumab,1,1,2-2.5/5 mg,2-2.5/5 mg,3-2.5/5 mg
+207,Placebo,1,1,1-Placebo,1-Placebo,2-Placebo
+208,Tanezumab,1,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+209,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+210,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+211,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+212,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+213,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+214,Tanezumab,3,2,3-2.5 mg,3-2.5 mg,3-2.5 mg
+215,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+216,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+217,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+218,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+219,Tanezumab,1,3,2-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+220,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+221,Tanezumab,1,1,1-2.5/5 mg,2-2.5/5 mg,1-2.5/5 mg
+222,Placebo,3,3,1-Placebo,3-Placebo,3-Placebo
+223,Tanezumab,3,1,3-2.5 mg,3-2.5 mg,3-2.5 mg
+224,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+225,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+226,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+227,Placebo,2,2,2-Placebo,3-Placebo,1-Placebo
+228,Placebo,2,3,3-Placebo,3-Placebo,3-Placebo
+229,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+230,Tanezumab,1,1,2-2.5 mg,2-2.5 mg,2-2.5 mg
+231,Tanezumab,1,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+232,Tanezumab,1,2,2-2.5/5 mg,2-2.5/5 mg,2-2.5/5 mg
+233,Tanezumab,1,1,3-2.5 mg,3-2.5 mg,3-2.5 mg
+234,Tanezumab,2,3,1-2.5/5 mg,3-2.5/5 mg,1-2.5/5 mg
+235,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+236,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+237,Placebo,1,1,2-Placebo,3-Placebo,3-Placebo
+238,Tanezumab,1,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+239,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+240,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+241,Tanezumab,1,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+242,Tanezumab,2,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+243,Tanezumab,3,3,1-2.5 mg,1-2.5 mg,1-2.5 mg
+244,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+245,Placebo,1,3,2-Placebo,2-Placebo,3-Placebo
+246,Tanezumab,3,3,2-2.5/5 mg,2-2.5/5 mg,1-2.5/5 mg
+247,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+248,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+249,Tanezumab,2,2,2-2.5 mg,2-2.5 mg,2-2.5 mg
+250,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+251,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+252,Tanezumab,3,1,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+253,Tanezumab,1,1,1-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+254,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+255,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+256,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+257,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+258,Placebo,2,1,1-Placebo,1-Placebo,1-Placebo
+259,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+260,Placebo,1,1,3-Placebo,3-Placebo,3-Placebo
+261,Placebo,1,1,3-Placebo,3-Placebo,3-Placebo
+262,Tanezumab,1,1,2-2.5 mg,2-2.5 mg,2-2.5 mg
+263,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+264,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+265,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+266,Placebo,1,3,3-Placebo,3-Placebo,3-Placebo
+267,Placebo,3,2,2-Placebo,2-Placebo,2-Placebo
+268,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+269,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+270,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+271,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+272,Tanezumab,1,1,2-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+273,Placebo,1,1,1-Placebo,2-Placebo,3-Placebo
+274,Placebo,1,1,2-Placebo,2-Placebo,2-Placebo
+275,Tanezumab,1,1,2-2.5 mg,2-2.5 mg,2-2.5 mg
+276,Tanezumab,1,1,2-2.5 mg,2-2.5 mg,2-2.5 mg
+277,Tanezumab,1,1,2-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+278,Tanezumab,1,2,2-2.5/5 mg,2-2.5/5 mg,3-2.5/5 mg
+279,Tanezumab,2,2,2-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+280,Tanezumab,1,2,2-2.5 mg,2-2.5 mg,2-2.5 mg
+281,Tanezumab,1,2,2-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+282,Tanezumab,2,2,2-2.5/5 mg,2-2.5/5 mg,2-2.5/5 mg
+283,Tanezumab,3,2,2-2.5 mg,2-2.5 mg,2-2.5 mg
+284,Tanezumab,2,2,2-2.5 mg,2-2.5 mg,2-2.5 mg
+285,Tanezumab,2,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+286,Placebo,1,2,1-Placebo,1-Placebo,2-Placebo
+287,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+288,Tanezumab,1,2,1-2.5/5 mg,2-2.5/5 mg,2-2.5/5 mg
+289,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,2-2.5/5 mg
+290,Placebo,2,3,3-Placebo,3-Placebo,3-Placebo
+291,Tanezumab,2,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+292,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+293,Placebo,2,3,2-Placebo,2-Placebo,2-Placebo
+294,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+295,Tanezumab,2,2,2-2.5/5 mg,2-2.5/5 mg,2-2.5/5 mg
+296,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+297,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+298,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+299,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+300,Placebo,1,2,1-Placebo,1-Placebo,1-Placebo
+301,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+302,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+303,Tanezumab,1,2,1-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+304,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+305,Tanezumab,1,1,2-2.5 mg,2-2.5 mg,2-2.5 mg
+306,Tanezumab,1,2,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+307,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+308,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+309,Placebo,2,2,3-Placebo,3-Placebo,3-Placebo
+310,Tanezumab,1,1,2-2.5 mg,2-2.5 mg,2-2.5 mg
+311,Tanezumab,1,2,2-2.5/5 mg,2-2.5/5 mg,1-2.5/5 mg
+312,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+313,Tanezumab,1,2,3-2.5 mg,3-2.5 mg,3-2.5 mg
+314,Placebo,2,3,3-Placebo,2-Placebo,2-Placebo
+315,Tanezumab,1,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+316,Placebo,1,2,2-Placebo,3-Placebo,3-Placebo
+317,Tanezumab,1,1,1-2.5/5 mg,2-2.5/5 mg,2-2.5/5 mg
+318,Tanezumab,2,2,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+319,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+320,Placebo,1,1,1-Placebo,3-Placebo,1-Placebo
+321,Tanezumab,2,2,1-2.5/5 mg,2-2.5/5 mg,2-2.5/5 mg
+322,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+323,Tanezumab,1,1,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+324,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+325,Tanezumab,3,2,1-2.5 mg,1-2.5 mg,1-2.5 mg
+326,Tanezumab,2,1,2-2.5/5 mg,2-2.5/5 mg,2-2.5/5 mg
+327,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+328,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,2-2.5/5 mg
+329,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+330,Tanezumab,1,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+331,Tanezumab,2,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+332,Placebo,1,1,1-Placebo,3-Placebo,3-Placebo
+333,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+334,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+335,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+336,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+337,Tanezumab,2,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+338,Tanezumab,1,1,2-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+339,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+340,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+341,Placebo,2,3,1-Placebo,3-Placebo,1-Placebo
+342,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+343,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+344,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+345,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+346,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+347,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+348,Tanezumab,3,3,2-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+349,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+350,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+351,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+352,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+353,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+354,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+355,Placebo,2,1,1-Placebo,3-Placebo,3-Placebo
+356,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+357,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+358,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+359,Tanezumab,2,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+360,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+361,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+362,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+363,Tanezumab,1,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+364,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+365,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+366,Tanezumab,2,2,2-2.5/5 mg,2-2.5/5 mg,2-2.5/5 mg
+367,Tanezumab,3,3,2-2.5 mg,2-2.5 mg,2-2.5 mg
+368,Tanezumab,2,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+369,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+370,Tanezumab,2,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+371,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+372,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+373,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+374,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+375,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+376,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+377,Tanezumab,3,3,2-2.5/5 mg,3-2.5/5 mg,1-2.5/5 mg
+378,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+379,Placebo,1,2,1-Placebo,1-Placebo,1-Placebo
+380,Tanezumab,1,1,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+381,Tanezumab,2,2,1-2.5 mg,1-2.5 mg,1-2.5 mg
+382,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+383,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+384,Tanezumab,1,2,3-2.5 mg,3-2.5 mg,3-2.5 mg
+385,Tanezumab,1,2,2-2.5 mg,2-2.5 mg,2-2.5 mg
+386,Tanezumab,1,2,1-2.5/5 mg,2-2.5/5 mg,3-2.5/5 mg
+387,Placebo,3,2,3-Placebo,3-Placebo,2-Placebo
+388,Placebo,2,2,2-Placebo,2-Placebo,3-Placebo
+389,Tanezumab,3,1,2-2.5 mg,2-2.5 mg,2-2.5 mg
+390,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+391,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+392,Tanezumab,3,2,1-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+393,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+394,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+395,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+396,Tanezumab,3,3,3-2.5/5 mg,2-2.5/5 mg,1-2.5/5 mg
+397,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+398,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+399,Tanezumab,2,2,2-2.5 mg,2-2.5 mg,2-2.5 mg
+400,Tanezumab,3,2,3-2.5 mg,3-2.5 mg,3-2.5 mg
+401,Tanezumab,2,3,3-2.5/5 mg,3-2.5/5 mg,1-2.5/5 mg
+402,Placebo,1,2,2-Placebo,3-Placebo,3-Placebo
+403,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+404,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+405,Placebo,3,3,3-Placebo,3-Placebo,2-Placebo
+406,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+407,Placebo,1,1,1-Placebo,1-Placebo,2-Placebo
+408,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+409,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+410,Placebo,3,3,3-Placebo,3-Placebo,2-Placebo
+411,Tanezumab,2,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+412,Placebo,2,3,3-Placebo,3-Placebo,3-Placebo
+413,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+414,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+415,Placebo,2,3,3-Placebo,3-Placebo,3-Placebo
+416,Tanezumab,1,3,2-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+417,Tanezumab,1,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+418,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+419,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+420,Tanezumab,1,1,2-2.5 mg,2-2.5 mg,2-2.5 mg
+421,Tanezumab,2,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+422,Tanezumab,1,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+423,Placebo,1,3,3-Placebo,3-Placebo,2-Placebo
+424,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+425,Tanezumab,2,2,2-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+426,Tanezumab,1,2,2-2.5/5 mg,2-2.5/5 mg,2-2.5/5 mg
+427,Tanezumab,2,2,3-2.5 mg,3-2.5 mg,3-2.5 mg
+428,Tanezumab,2,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+429,Tanezumab,1,2,1-2.5/5 mg,2-2.5/5 mg,1-2.5/5 mg
+430,Placebo,1,2,2-Placebo,2-Placebo,2-Placebo
+431,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+432,Tanezumab,1,2,2-2.5 mg,2-2.5 mg,2-2.5 mg
+433,Tanezumab,1,1,1-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+434,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+435,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+436,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+437,Placebo,1,1,3-Placebo,3-Placebo,3-Placebo
+438,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,2-2.5/5 mg
+439,Tanezumab,3,3,2-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+440,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+441,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+442,Tanezumab,2,2,2-2.5/5 mg,3-2.5/5 mg,1-2.5/5 mg
+443,Placebo,1,1,1-Placebo,2-Placebo,3-Placebo
+444,Placebo,2,2,2-Placebo,1-Placebo,1-Placebo
+445,Tanezumab,2,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+446,Tanezumab,1,2,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+447,Placebo,2,1,3-Placebo,3-Placebo,3-Placebo
+448,Tanezumab,2,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+449,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+450,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+451,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+452,Tanezumab,3,2,1-2.5 mg,1-2.5 mg,1-2.5 mg
+453,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+454,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+455,Tanezumab,2,3,2-2.5 mg,2-2.5 mg,2-2.5 mg
+456,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+457,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+458,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+459,Tanezumab,3,3,1-2.5 mg,1-2.5 mg,1-2.5 mg
+460,Placebo,1,1,1-Placebo,3-Placebo,3-Placebo
+461,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+462,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+463,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+464,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+465,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+466,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+467,Tanezumab,2,2,1-2.5 mg,1-2.5 mg,1-2.5 mg
+468,Tanezumab,3,3,2-2.5 mg,2-2.5 mg,2-2.5 mg
+469,Tanezumab,2,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+470,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+471,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+472,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+473,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+474,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+475,Tanezumab,3,2,2-2.5 mg,2-2.5 mg,2-2.5 mg
+476,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+477,Tanezumab,1,1,2-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+478,Placebo,3,3,2-Placebo,3-Placebo,3-Placebo
+479,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+480,Tanezumab,3,3,2-2.5 mg,2-2.5 mg,2-2.5 mg
+481,Tanezumab,2,2,3-2.5 mg,3-2.5 mg,3-2.5 mg
+482,Tanezumab,1,2,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+483,Tanezumab,1,2,1-2.5 mg,1-2.5 mg,1-2.5 mg
+484,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+485,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+486,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+487,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+488,Placebo,2,3,2-Placebo,3-Placebo,2-Placebo
+489,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+490,Placebo,3,3,1-Placebo,3-Placebo,3-Placebo
+491,Tanezumab,3,3,1-2.5 mg,1-2.5 mg,1-2.5 mg
+492,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+493,Tanezumab,2,3,1-2.5 mg,1-2.5 mg,1-2.5 mg
+494,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+495,Tanezumab,2,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+496,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+497,Tanezumab,2,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+498,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+499,Placebo,2,2,2-Placebo,2-Placebo,2-Placebo
+500,Tanezumab,2,3,1-2.5 mg,1-2.5 mg,1-2.5 mg
+501,Tanezumab,1,3,2-2.5 mg,2-2.5 mg,2-2.5 mg
+502,Placebo,1,1,1-Placebo,1-Placebo,2-Placebo
+503,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+504,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+505,Tanezumab,1,1,1-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+506,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+507,Tanezumab,3,3,1-2.5 mg,1-2.5 mg,1-2.5 mg
+508,Placebo,1,1,2-Placebo,2-Placebo,3-Placebo
+509,Tanezumab,1,1,1-2.5/5 mg,2-2.5/5 mg,1-2.5/5 mg
+510,Tanezumab,2,1,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+511,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+512,Tanezumab,2,3,3-2.5/5 mg,2-2.5/5 mg,3-2.5/5 mg
+513,Tanezumab,2,3,1-2.5 mg,1-2.5 mg,1-2.5 mg
+514,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+515,Tanezumab,2,2,2-2.5/5 mg,2-2.5/5 mg,3-2.5/5 mg
+516,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+517,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+518,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+519,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+520,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+521,Placebo,2,1,1-Placebo,1-Placebo,1-Placebo
+522,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+523,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+524,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+525,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+526,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+527,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+528,Tanezumab,2,3,2-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+529,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+530,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+531,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+532,Tanezumab,1,1,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+533,Tanezumab,1,1,2-2.5 mg,2-2.5 mg,2-2.5 mg
+534,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+535,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+536,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+537,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+538,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+539,Tanezumab,2,2,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+540,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+541,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+542,Placebo,2,2,1-Placebo,3-Placebo,1-Placebo
+543,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+544,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+545,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+546,Placebo,2,1,2-Placebo,3-Placebo,1-Placebo
+547,Placebo,1,1,3-Placebo,1-Placebo,3-Placebo
+548,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+549,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+550,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+551,Placebo,2,3,3-Placebo,3-Placebo,3-Placebo
+552,Placebo,3,3,2-Placebo,1-Placebo,1-Placebo
+553,Tanezumab,1,1,2-2.5 mg,2-2.5 mg,2-2.5 mg
+554,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+555,Placebo,1,1,1-Placebo,2-Placebo,2-Placebo
+556,Tanezumab,1,1,2-2.5/5 mg,2-2.5/5 mg,2-2.5/5 mg
+557,Tanezumab,1,3,2-2.5 mg,2-2.5 mg,2-2.5 mg
+558,Tanezumab,3,3,1-2.5 mg,1-2.5 mg,1-2.5 mg
+559,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+560,Tanezumab,1,1,2-2.5 mg,2-2.5 mg,2-2.5 mg
+561,Tanezumab,1,1,1-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+562,Tanezumab,1,2,3-2.5 mg,3-2.5 mg,3-2.5 mg
+563,Placebo,1,1,1-Placebo,2-Placebo,3-Placebo
+564,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+565,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+566,Placebo,2,3,3-Placebo,3-Placebo,2-Placebo
+567,Placebo,2,2,1-Placebo,2-Placebo,2-Placebo
+568,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+569,Tanezumab,3,2,1-2.5/5 mg,3-2.5/5 mg,1-2.5/5 mg
+570,Tanezumab,2,2,2-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+571,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+572,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+573,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+574,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+575,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+576,Placebo,1,1,1-Placebo,2-Placebo,2-Placebo
+577,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+578,Tanezumab,3,3,2-2.5/5 mg,2-2.5/5 mg,2-2.5/5 mg
+579,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+580,Tanezumab,2,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+581,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+582,Placebo,1,1,2-Placebo,2-Placebo,1-Placebo
+583,Placebo,1,2,2-Placebo,1-Placebo,1-Placebo
+584,Tanezumab,2,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+585,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+586,Tanezumab,1,1,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+587,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+588,Placebo,1,1,3-Placebo,1-Placebo,2-Placebo
+589,Tanezumab,3,1,3-2.5 mg,3-2.5 mg,3-2.5 mg
+590,Tanezumab,3,2,3-2.5 mg,3-2.5 mg,3-2.5 mg
+591,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+592,Tanezumab,2,1,2-2.5/5 mg,2-2.5/5 mg,3-2.5/5 mg
+593,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+594,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+595,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+596,Placebo,2,3,3-Placebo,3-Placebo,3-Placebo
+597,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+598,Tanezumab,1,2,3-2.5 mg,3-2.5 mg,3-2.5 mg
+599,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+600,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+601,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+602,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+603,Placebo,1,2,1-Placebo,1-Placebo,1-Placebo
+604,Placebo,3,3,3-Placebo,3-Placebo,1-Placebo
+605,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+606,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+607,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+608,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,1-2.5/5 mg
+609,Tanezumab,3,1,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+610,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+611,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+612,Tanezumab,2,2,1-2.5 mg,1-2.5 mg,1-2.5 mg
+613,Placebo,3,3,2-Placebo,3-Placebo,1-Placebo
+614,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+615,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+616,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+617,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+618,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+619,Tanezumab,2,2,2-2.5 mg,2-2.5 mg,2-2.5 mg
+620,Tanezumab,3,3,1-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+621,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+622,Placebo,3,3,1-Placebo,3-Placebo,3-Placebo
+623,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+624,Tanezumab,1,2,3-2.5 mg,3-2.5 mg,3-2.5 mg
+625,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+626,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+627,Placebo,1,1,2-Placebo,1-Placebo,1-Placebo
+628,Tanezumab,1,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+629,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+630,Tanezumab,3,2,1-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+631,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+632,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+633,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+634,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+635,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+636,Tanezumab,1,2,3-2.5 mg,3-2.5 mg,3-2.5 mg
+637,Tanezumab,1,3,1-2.5 mg,1-2.5 mg,1-2.5 mg
+638,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+639,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,2-2.5/5 mg
+640,Placebo,2,2,2-Placebo,3-Placebo,3-Placebo
+641,Placebo,1,2,3-Placebo,3-Placebo,3-Placebo
+642,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+643,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+644,Tanezumab,2,1,1-2.5/5 mg,3-2.5/5 mg,1-2.5/5 mg
+645,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+646,Placebo,1,3,2-Placebo,2-Placebo,2-Placebo
+647,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+648,Tanezumab,2,3,2-2.5 mg,2-2.5 mg,2-2.5 mg
+649,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+650,Tanezumab,2,3,1-2.5 mg,1-2.5 mg,1-2.5 mg
+651,Tanezumab,1,1,2-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+652,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+653,Tanezumab,1,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+654,Placebo,2,2,2-Placebo,2-Placebo,1-Placebo
+655,Tanezumab,1,3,2-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+656,Tanezumab,2,2,3-2.5 mg,3-2.5 mg,3-2.5 mg
+657,Tanezumab,1,2,2-2.5/5 mg,1-2.5/5 mg,2-2.5/5 mg
+658,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+659,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+660,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+661,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+662,Tanezumab,3,3,2-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+663,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+664,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+665,Tanezumab,2,3,1-2.5/5 mg,3-2.5/5 mg,2-2.5/5 mg
+666,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,3-2.5/5 mg
+667,Tanezumab,2,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+668,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+669,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+670,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+671,Tanezumab,3,3,2-2.5 mg,2-2.5 mg,2-2.5 mg
+672,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+673,Placebo,1,2,1-Placebo,3-Placebo,3-Placebo
+674,Placebo,1,1,1-Placebo,1-Placebo,1-Placebo
+675,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+676,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+677,Tanezumab,3,3,2-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+678,Tanezumab,1,3,1-2.5 mg,1-2.5 mg,1-2.5 mg
+679,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+680,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+681,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+682,Tanezumab,3,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+683,Placebo,3,2,3-Placebo,3-Placebo,3-Placebo
+684,Placebo,3,3,3-Placebo,3-Placebo,3-Placebo
+685,Tanezumab,3,2,2-2.5 mg,2-2.5 mg,2-2.5 mg
+686,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+687,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,3-2.5/5 mg
+688,Tanezumab,1,1,1-2.5/5 mg,1-2.5/5 mg,1-2.5/5 mg
+689,Tanezumab,2,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+690,Tanezumab,1,2,1-2.5 mg,1-2.5 mg,1-2.5 mg
+691,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+692,Tanezumab,1,1,1-2.5 mg,1-2.5 mg,1-2.5 mg
+693,Placebo,1,1,1-Placebo,2-Placebo,1-Placebo
+694,Tanezumab,1,3,3-2.5 mg,3-2.5 mg,3-2.5 mg
+695,Tanezumab,3,3,3-2.5/5 mg,3-2.5/5 mg,3-2.5/5 mg
+696,Tanezumab,2,1,1-2.5 mg,1-2.5 mg,1-2.5 mg

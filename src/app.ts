@@ -2,18 +2,20 @@ import * as d3 from "d3";
 import { sankey, SankeyGraph, SankeyLayout, sankeyLinkHorizontal, SankeyNode } from "d3-sankey";
 
 /**
- *
+ * Defines a factor, telling the Sankey app which "bucket" should be
+ * used to display the data.
  */
 interface Factor {
     index: number;
     fill: string;
     label: string;
-    maxValue: number;
-    minValue: number;
+    maxValue?: number;
+    minValue?: number;
+    value?: string;
 }
 
 /**
- *
+ * Defines a Sankey node.
  */
 interface Node {
     depth: number;
@@ -32,7 +34,11 @@ interface Node {
     y1: number;
 }
 
+/**
+ * Defines a Sankey link between two nodes.
+ */
 interface Link {
+    label: string;
     source: Node;
     target: Node;
     value: number;
@@ -44,25 +50,14 @@ interface GraphData {
     links: Link[];
 }
 
-// const FACTORS: Factor[] = [
-//     { index: 0, minValue: 0.00, maxValue: 0.30, label: "[0.00, 0.30)", fill: color(0.75) },
-//     { index: 1, minValue: 0.30, maxValue: 0.50, label: "[0.30, 0.50)", fill: color(0.50) },
-//     { index: 2, minValue: 0.50, maxValue: 1.00, label: "[0.50, 1.00]", fill: color(0.25) },
-// ];
+const FACTORS: Factor[] = [];
 
-const FACTORS: Factor[] = [
-    { index: 0, minValue: 1.0, maxValue: 1.9999, label: "[0.00, 0.30)", fill: color(0.25) },
-    { index: 1, minValue: 2.0, maxValue: 2.9999, label: "[0.30, 0.50)", fill: color(0.50) },
-    { index: 2, minValue: 3.0, maxValue: 3.9999, label: "[0.50, 1.00]", fill: color(0.75) }
-];
-
-// const CSV_FILE_NAME: string = "data/sample-data-1.csv";
-const CSV_FILE_NAME: string = "data/womac_pain_resp_sankey.csv";
+const CSV_FILE_NAME: string = "data/womac_pain_resp_sankey_combined.csv";
 const TREATMENT_COLUMN: number = 1;
 const FIRST_DATA_COLUMN: number = 2;
 const NODE_PADDING: number = 0;
 const NODE_WIDTH: number = 50;
-const HEIGHT: number = 280;
+const HEIGHT: number = 500;
 const WIDTH: number = 1200;
 const TITLE_FONT_SIZE: number = 20;
 const LABEL_FONT_SIZE: number = 12;
@@ -78,8 +73,43 @@ const MARGIN = {
     top: 36,
 }
 
-function color(value: number) {
+function color(value: number): string {
     return d3.interpolateViridis(value);
+}
+
+function createAllFactors(): void {
+    // Yes, this method of building out the factors is a total hack. I am aware of that. I'm
+    // really just trying to get this project done quickly.
+    FACTORS.splice(0, FACTORS.length);
+    switch (CSV_FILE_NAME) {
+    case "data/womac_pain_resp_sankey.csv":
+        FACTORS.push(
+            { index: 0, minValue: 1.0, maxValue: 1.9999, label: "[0.00, 0.30)", fill: color(0.25) },
+            { index: 1, minValue: 2.0, maxValue: 2.9999, label: "[0.30, 0.50)", fill: color(0.50) },
+            { index: 2, minValue: 3.0, maxValue: 3.9999, label: "[0.50, 1.00]", fill: color(0.75) }
+        );
+        break;
+    case "data/womac_pain_resp_sankey_combined.csv":
+        FACTORS.push(
+            { index: 0,  value: "1",          label: "[0.00, 0.30)", fill: color(0.25) },
+            { index: 1,  value: "2",          label: "[0.30, 0.50)", fill: color(0.50) },
+            { index: 2,  value: "3",          label: "[0.50, 1.00]", fill: color(0.75) },
+            { index: 3,  value: "1-Placebo",  label: "[0.00, 0.30)", fill: color(0.25) },
+            { index: 4,  value: "2-Placebo",  label: "[0.30, 0.50)", fill: color(0.50) },
+            { index: 5,  value: "3-Placebo",  label: "[0.50, 1.00]", fill: color(0.75) },
+            { index: 6,  value: "1-2.5 mg",   label: "[0.00, 0.30)", fill: color(0.25) },
+            { index: 7,  value: "2-2.5 mg",   label: "[0.30, 0.50)", fill: color(0.50) },
+            { index: 8,  value: "3-2.5 mg",   label: "[0.50, 1.00]", fill: color(0.75) },
+            { index: 9,  value: "1-2.5/5 mg", label: "[0.00, 0.30)", fill: color(0.25) },
+            { index: 10, value: "2-2.5/5 mg", label: "[0.30, 0.50)", fill: color(0.50) },
+            { index: 11, value: "3-2.5/5 mg", label: "[0.50, 1.00]", fill: color(0.75) },
+        );
+        break;
+    default:
+        throw Error(`I don't know how to create factors for file "${CSV_FILE_NAME}".`);
+    }
+
+    console.log("Factors:", FACTORS);
 }
 
 function createAllNodes(headings: string[], factors: Factor[]): Node[] {
@@ -89,7 +119,7 @@ function createAllNodes(headings: string[], factors: Factor[]): Node[] {
     headings.forEach((heading, i) => {
         if (i >= FIRST_DATA_COLUMN) {
             factors.forEach((factor, j) => {
-                let node = {
+                let node: Node = {
                         depth: i - 1,
                         factor: factor,
                         fill: factor.fill,
@@ -110,11 +140,13 @@ function createAllNodes(headings: string[], factors: Factor[]): Node[] {
         }
     });
 
+    console.log("Nodes:", nodes);
+
     return nodes;
 }
 
 function drawLegend() {
-    let totalLength = FACTORS.length * LEGEND_WIDTH;
+    let totalLength = Math.min(FACTORS.length, 3) * LEGEND_WIDTH;
     let xOffset = (WIDTH - totalLength) / 2.0;
     console.log(`"Total length: ${totalLength}, x offset: ${xOffset}.`);
 
@@ -127,6 +159,7 @@ function drawLegend() {
     svg.selectAll("rect")
         .data(FACTORS)
         .enter()
+        .filter(f => f.index <= 2)
         .append("rect")
         .attr("x", d => xOffset + d.index * LEGEND_WIDTH)
         .attr("y", 4)
@@ -137,6 +170,7 @@ function drawLegend() {
     svg.selectAll("text")
         .data(FACTORS)
         .enter()
+        .filter(f => f.index <= 2)
         .append("text")
         .attr("font-family", LABEL_FONT_FAMILY)
         .attr("font-size", LABEL_FONT_SIZE)
@@ -166,7 +200,7 @@ function drawSankeyGraph(graphData: GraphData, treatment?: string) {
         node.label = `${percent.toFixed(0)}%`;
     });
 
-    let weeks = graph.nodes.map(n => n.week).reduce(reduceUnique(), []).map((week, i) => {
+    let weeks = graph.nodes.map(n => n.week).reduce(unique(), []).map((week, i) => {
         let x0 = d3.min(graph.nodes.filter(n => n.depth === i), n => n.x0) || 0;
         let x1 = d3.min(graph.nodes.filter(n => n.depth === i), n => n.x1) || 0;
         return {
@@ -258,22 +292,19 @@ function drawSankeyGraph(graphData: GraphData, treatment?: string) {
         .attr("stroke-width", d => d.width);
 }
 
-function getFactorForValue(value: number): Factor {
+function getFactorForValue(value: string): Factor {
     for (let factor of FACTORS) {
-        if (factor.minValue <= value && value < factor.maxValue) {
+        if ((typeof factor.value === "string") &&
+            (factor.value === value)) {
+            return factor;
+        }
+        else if ((typeof factor.minValue === "number") &&
+                 (typeof factor.maxValue === "number") &&
+                 (factor.minValue <= +value) && (+value < factor.maxValue)) {
             return factor;
         }
     }
-    throw Error(`No factor found for value ${value}.`);
-}
-
-function reduceUnique<T>(): (previous: T[], current: T) => T[] {
-    return (previous: T[], current: T): T[] => {
-        if (previous.indexOf(current) === -1) {
-            previous.push(current);
-        }
-        return previous;
-    }
+    throw Error(`No factor found for value "${value}".`);
 }
 
 function setTitle(): void {
@@ -289,6 +320,26 @@ function sortNodes(a: SankeyNode<Node, Link>, b: SankeyNode<Node, Link>): number
     return 0;
 }
 
+function start(): void {
+    createAllFactors();
+    d3.text(CSV_FILE_NAME)
+        .then((text: string) => {
+            setTitle();
+            let csv = d3.csvParseRows(text);
+            let headings = csv.slice(0, 1)[0];
+            console.log(`Headings: ${headings.join(", ")}.`);
+            let body = csv.slice(1);
+            let treatments = body.map(line => line[TREATMENT_COLUMN]).reduce(unique(), []);
+            treatments.forEach(treatment => {
+                let filteredCSV = body.filter(line => line[TREATMENT_COLUMN] === treatment);
+                console.log(`Treatment ${treatment} has ${filteredCSV.length} lines.`);
+                let graphData = transformData(headings, filteredCSV);
+                drawSankeyGraph(graphData, treatment);
+            });
+            drawLegend();
+        });
+}
+
 function transformData(headings: string[], csv: string[][]): GraphData {
     let nodes: Node[] = createAllNodes(headings, FACTORS);
     let links: Link[] = [];
@@ -297,20 +348,21 @@ function transformData(headings: string[], csv: string[][]): GraphData {
         let line: string[] = csv[i];
         for (let j = FIRST_DATA_COLUMN; j < line.length; j++) {
             let week = headings[j];
-            let value = +line[j];
+            let value = line[j];
             let factor = getFactorForValue(value);
             let node = nodes.find(n => n.week === week && n.factor === factor) as Node;
             node.value++;
             if (j >= FIRST_DATA_COLUMN + 1) {
-                let prevValue = +line[j - 1];
+                let prevValue = line[j - 1];
                 let prevFactor = getFactorForValue(prevValue);
                 let prevNode = nodes.find(n => n.week === headings[j - 1] && n.factor === prevFactor) as Node;
-                let link = links.find(l => l.source === prevNode && l.target === node) as Link;
+                let link: Link = links.find(l => l.source === prevNode && l.target === node) as Link;
                 if (link) {
                     link.value++;
                 }
                 else {
                     link = {
+                        label: "",
                         source: prevNode,
                         target: node,
                         value: 1,
@@ -329,19 +381,14 @@ function transformData(headings: string[], csv: string[][]): GraphData {
     };
 }
 
-d3.text(CSV_FILE_NAME)
-    .then((text: string) => {
-        setTitle();
-        let csv = d3.csvParseRows(text);
-        let headings = csv.slice(0, 1)[0];
-        console.log(`Headings: ${headings.join(", ")}.`);
-        let body = csv.slice(1);
-        let treatments = body.map(line => line[TREATMENT_COLUMN]).reduce(reduceUnique(), []);
-        treatments.forEach(treatment => {
-            let filteredCSV = body.filter(line => line[TREATMENT_COLUMN] === treatment);
-            console.log(`Treatment ${treatment} has ${filteredCSV.length} lines.`);
-            let graphData = transformData(headings, filteredCSV);
-            drawSankeyGraph(graphData, treatment);
-        });
-        drawLegend();
-    });
+function unique<T>(): (previous: T[], current: T) => T[] {
+    return (previous: T[], current: T): T[] => {
+        if (previous.indexOf(current) === -1) {
+            previous.push(current);
+        }
+        return previous;
+    }
+}
+
+// Done defining everything. Time to start the program!
+start();
