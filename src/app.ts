@@ -51,7 +51,8 @@ interface GraphData {
 }
 
 const FACTORS: Factor[] = [];
-const CSV_FILE_NAME: string = "data/womac_pain_resp_sankey_combined.csv";
+// const CSV_FILE_NAME: string = "data/womac_pain_resp_sankey_combined.csv";
+const CSV_FILE_NAME: string = "data/womac_pain_resp_sankey.csv";
 const TREATMENT_COLUMN: number = 1;
 const FIRST_DATA_COLUMN: number = 2;
 const NODE_PADDING: number = 0;
