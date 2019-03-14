@@ -51,13 +51,12 @@ interface GraphData {
 }
 
 const FACTORS: Factor[] = [];
-
 const CSV_FILE_NAME: string = "data/womac_pain_resp_sankey_combined.csv";
 const TREATMENT_COLUMN: number = 1;
 const FIRST_DATA_COLUMN: number = 2;
 const NODE_PADDING: number = 0;
 const NODE_WIDTH: number = 50;
-const HEIGHT: number = 500;
+const HEIGHT: number = 400;
 const WIDTH: number = 1200;
 const TITLE_FONT_SIZE: number = 20;
 const LABEL_FONT_SIZE: number = 12;
@@ -67,7 +66,7 @@ const LEGEND_WIDTH: number = 140;
 const LEGEND_BOX_SIZE: number = 20;
 const LEGEND_TEXT_PADDING: number = 4;
 const MARGIN = {
-    bottom: 0,
+    bottom: 10,
     left: 10,
     right: 10,
     top: 36,
@@ -84,9 +83,9 @@ function createAllFactors(): void {
     switch (CSV_FILE_NAME) {
     case "data/womac_pain_resp_sankey.csv":
         FACTORS.push(
-            { index: 0, minValue: 1.0, maxValue: 1.9999, label: "[0.00, 0.30)", fill: color(0.25) },
-            { index: 1, minValue: 2.0, maxValue: 2.9999, label: "[0.30, 0.50)", fill: color(0.50) },
-            { index: 2, minValue: 3.0, maxValue: 3.9999, label: "[0.50, 1.00]", fill: color(0.75) }
+            { index: 0, value: "1", label: "[0.00, 0.30)", fill: color(0.25) },
+            { index: 1, value: "2", label: "[0.30, 0.50)", fill: color(0.50) },
+            { index: 2, value: "3", label: "[0.50, 1.00]", fill: color(0.75) }
         );
         break;
     case "data/womac_pain_resp_sankey_combined.csv":
@@ -145,14 +144,47 @@ function createAllNodes(headings: string[], factors: Factor[]): Node[] {
     return nodes;
 }
 
-function drawLegend() {
+function createDownloadButton() {
+    let button = d3.select("body")
+        .append("p")
+        .append("button")
+        .attr("type", "button")
+        .text("Download SVG");
+    d3.select("body")
+        .append("canvas")
+        .style("display", "none");
+    button.on("click", () => {
+        console.log("button click");
+        let svg = d3.select<SVGSVGElement, {}>("svg").node() as SVGSVGElement;
+        let serializer = new XMLSerializer();
+        let source = '<?xml version="1.0"?>' + serializer.serializeToString(svg);
+        let a = document.createElement("a") as HTMLAnchorElement;
+        a.download = "image.svg";
+        a.href = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(source);
+        a.click();
+    });
+}
+
+function createSvg(numTreatments: number): void {
+    d3.select("body")
+        .append("svg")
+        .attr("xmlns", "http://www.w3.org/2000/svg")
+        .attr("xmlns:xlink", "http://www.w3.org/1999/xlink")
+        .classed("visual", true)
+        .attr("version", "1.1")
+        .attr("width", WIDTH)
+        .attr("height", HEIGHT * numTreatments + 2 * LABEL_FONT_SIZE + MARGIN.top);
+}
+
+function drawLegend(numTreatments: number) {
     let totalLength = Math.min(FACTORS.length, 3) * LEGEND_WIDTH;
     let xOffset = (WIDTH - totalLength) / 2.0;
     console.log(`"Total length: ${totalLength}, x offset: ${xOffset}.`);
 
-    let svg = d3.select("body")
-        .append("svg")
+    let svg = d3.select("svg")
+        .append("g")
         .classed("legend", true)
+        .attr("transform", `translate(0, ${numTreatments * HEIGHT})`)
         .attr("height", 2 * LABEL_FONT_SIZE)
         .attr("width", WIDTH);
 
@@ -179,7 +211,7 @@ function drawLegend() {
         .text(d => d.label)
 }
 
-function drawSankeyGraph(graphData: GraphData, treatment?: string) {
+function drawSankeyGraph(graphData: GraphData, treatment?: string, index?: number) {
     let graphSize: [number, number] = [
         WIDTH - MARGIN.left - MARGIN.right,
         HEIGHT - MARGIN.top - MARGIN.bottom
@@ -210,14 +242,13 @@ function drawSankeyGraph(graphData: GraphData, treatment?: string) {
         };
     });
 
-    let svg = d3.select("body")
-        .append("svg")
+    let svg = d3.select("svg");
+    let g = svg.append("g")
         .classed("visual", true)
-        .attr("width", WIDTH)
-        .attr("height", HEIGHT);
+        .attr("transform", `translate(0, ${(index || 0) * HEIGHT})`);
 
     if (treatment) {
-        svg.append("text")
+        g.append("text")
             .classed("treatment", true)
             .attr("x", MARGIN.left)
             .attr("y", TITLE_FONT_SIZE)
@@ -228,7 +259,11 @@ function drawSankeyGraph(graphData: GraphData, treatment?: string) {
             .text(treatment);
     }
 
-    svg.selectAll("text.column-heading")
+    let view = g.append("g")
+        .classed("view", true)
+        .attr("transform", `translate(${MARGIN.left}, ${MARGIN.top})`);
+
+    g.selectAll("text.column-heading")
         .data(weeks)
         .enter()
         .append("text")
@@ -240,20 +275,19 @@ function drawSankeyGraph(graphData: GraphData, treatment?: string) {
         .attr("text-anchor", "middle")
         .text(d => d.label);
 
-    let gradients = svg.selectAll("linearGradient")
-        .data(graph.links)
-        .enter()
-        .append("linearGradient")
-        .attr("id", d => `gradient-${d.source.id}-${d.target.id}`)
-        .attr("gradientUnits", "userSpaceOnUse")
-        .attr("x1", d => d.source.x1)
-        .attr("x2", d => d.target.x0);
-    gradients.append("stop").attr("offset", 0.0).attr("stop-color", d => d.source.fill);
-    gradients.append("stop").attr("offset", 1.0).attr("stop-color", d => d.target.fill);
-
-    let view = svg.append("g")
-        .classed("view", true)
-        .attr("transform", `translate(${MARGIN.left}, ${MARGIN.top})`);
+    graph.links.forEach((link: Link) => {
+        let id = `gradient-${link.source.id}-${link.target.id}`;
+        let gradient = svg.select<SVGLinearGradientElement>(`#${id}`);
+        if (gradient.empty()) {
+            gradient = svg.append("linearGradient")
+                .attr("id", id)
+                .attr("gradientUnits", "userSpaceOnUse")
+                .attr("x1", link.source.x1)
+                .attr("x2", link.target.x0);
+            gradient.append("stop").attr("offset", 0.0).attr("stop-color", link.source.fill);
+            gradient.append("stop").attr("offset", 1.0).attr("stop-color", link.target.fill);
+        }
+    });
 
     view.selectAll("rect.node")
         .data(graph.nodes)
@@ -330,13 +364,15 @@ function start(): void {
             console.log(`Headings: ${headings.join(", ")}.`);
             let body = csv.slice(1);
             let treatments = body.map(line => line[TREATMENT_COLUMN]).reduce(unique(), []);
-            treatments.forEach(treatment => {
+            createSvg(treatments.length);
+            treatments.forEach((treatment: string, i: number): void => {
                 let filteredCSV = body.filter(line => line[TREATMENT_COLUMN] === treatment);
-                console.log(`Treatment ${treatment} has ${filteredCSV.length} lines.`);
+                console.log(`Treatment: ${treatment}, length: ${filteredCSV.length}, index: ${i}.`);
                 let graphData = transformData(headings, filteredCSV);
-                drawSankeyGraph(graphData, treatment);
+                drawSankeyGraph(graphData, treatment, i);
             });
-            drawLegend();
+            drawLegend(treatments.length);
+            createDownloadButton();
         });
 }
 
