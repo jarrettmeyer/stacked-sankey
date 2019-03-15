@@ -146,19 +146,16 @@ function createAllNodes(headings: string[], factors: Factor[]): Node[] {
 }
 
 function createDownloadButton() {
-    let button = d3.select("body")
+    let button = d3.select<HTMLBodyElement, {}>("body")
         .append("p")
         .append("button")
         .attr("type", "button")
         .text("Download SVG");
-    d3.select("body")
-        .append("canvas")
-        .style("display", "none");
     button.on("click", () => {
-        console.log("button click");
+        // console.log("button click");
         let svg = d3.select<SVGSVGElement, {}>("svg").node() as SVGSVGElement;
         let serializer = new XMLSerializer();
-        let source = '<?xml version="1.0"?>' + serializer.serializeToString(svg);
+        let source = '<?xml version="1.0"?>\n' + serializer.serializeToString(svg);
         let a = document.createElement("a") as HTMLAnchorElement;
         a.download = "image.svg";
         a.href = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(source);
@@ -167,7 +164,7 @@ function createDownloadButton() {
 }
 
 function createSvg(numTreatments: number): void {
-    d3.select("body")
+    d3.select<HTMLBodyElement, {}>("body")
         .append("svg")
         .attr("xmlns", "http://www.w3.org/2000/svg")
         .attr("xmlns:xlink", "http://www.w3.org/1999/xlink")
